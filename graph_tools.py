@@ -39,26 +39,38 @@ class SocialGraphAnalyzer:
     def create_sample_social_graph(self, num_nodes: int = 20, connection_prob: float = 0.15) -> nx.Graph:
         """Create a sample social network for testing."""
         # Create a random graph with some structure
-        self.graph = nx.erdos_renyi_graph(num_nodes, connection_prob)
+        temp_graph = nx.erdos_renyi_graph(num_nodes, connection_prob)
         
-        # Add some realistic attributes
+        # Create new graph with string node IDs
+        self.graph = nx.Graph()
+        
+        # Add nodes with string IDs and realistic attributes
         names = [f"Person_{i}" for i in range(num_nodes)]
         ages = np.random.randint(18, 65, num_nodes)
         locations = np.random.choice(['NYC', 'LA', 'Chicago', 'Houston', 'Phoenix'], num_nodes)
         
-        for i, node in enumerate(self.graph.nodes()):
-            self.graph.nodes[node].update({
+        # Create mapping from integer to string node IDs
+        node_mapping = {i: f"person_{i}" for i in range(num_nodes)}
+        
+        # Add nodes with string IDs
+        for i in range(num_nodes):
+            node_id = node_mapping[i]
+            self.graph.add_node(node_id, **{
                 'name': names[i],
                 'age': int(ages[i]),
                 'location': locations[i]
             })
         
-        # Add edge weights (interaction strength)
-        for edge in self.graph.edges():
-            self.graph.edges[edge]['weight'] = np.random.uniform(0.1, 1.0)
-            self.graph.edges[edge]['relationship_type'] = np.random.choice([
-                'friend', 'colleague', 'family', 'acquaintance'
-            ])
+        # Add edges with string node IDs
+        for edge in temp_graph.edges():
+            source = node_mapping[edge[0]]
+            target = node_mapping[edge[1]]
+            self.graph.add_edge(source, target, **{
+                'weight': np.random.uniform(0.1, 1.0),
+                'relationship_type': np.random.choice([
+                    'friend', 'colleague', 'family', 'acquaintance'
+                ])
+            })
         
         return self.graph
     

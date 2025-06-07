@@ -73,11 +73,11 @@ class GraphMetrics(BaseModel):
     num_edges: int
     density: float
     
-    # Centrality metrics
-    degree_centrality: Dict[str, float] = Field(default_factory=dict)
-    betweenness_centrality: Dict[str, float] = Field(default_factory=dict)
-    closeness_centrality: Dict[str, float] = Field(default_factory=dict)
-    eigenvector_centrality: Dict[str, float] = Field(default_factory=dict)
+    # Centrality metrics (keys can be strings or integers)
+    degree_centrality: Dict[Any, float] = Field(default_factory=dict)
+    betweenness_centrality: Dict[Any, float] = Field(default_factory=dict)
+    closeness_centrality: Dict[Any, float] = Field(default_factory=dict)
+    eigenvector_centrality: Dict[Any, float] = Field(default_factory=dict)
     
     # Community metrics
     clustering_coefficient: float
@@ -112,6 +112,6 @@ class GraphMetrics(BaseModel):
             }
         }
     
-    def _top_k_dict(self, d: Dict[str, float], k: int) -> Dict[str, float]:
+    def _top_k_dict(self, d: Dict[Any, float], k: int) -> Dict[Any, float]:
         """Get top k items from dictionary by value."""
         return dict(sorted(d.items(), key=lambda x: x[1], reverse=True)[:k]) 

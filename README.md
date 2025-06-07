@@ -43,7 +43,7 @@ The system consists of several key components:
    ollama serve
    
    # Pull the Gemma3:27b model (in another terminal)
-   ollama pull gemma2:27b
+   ollama pull gemma3:27b
    ```
 
 3. **Verify installation**:

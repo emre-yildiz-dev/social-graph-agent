@@ -65,7 +65,7 @@ def run_example_queries():
         print("⚠️  Warning: Ollama connection failed. Make sure Ollama is running with gemma2:27b model.")
         print("   You can start Ollama and pull the model with:")
         print("   ollama serve")
-        print("   ollama pull gemma2:27b")
+        print("   ollama pull gemma3:27b")
     else:
         print("✅ Ollama connection successful!")
     
