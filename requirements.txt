@@ -1,0 +1,20 @@
+# Core graph and LLM libraries
+networkx
+langgraph
+ollama
+
+# Utilities
+requests
+python-dotenv
+
+# Data validation and typing
+pydantic
+typing-extensions
+
+# Graph analysis algorithms
+python-louvain
+numpy
+
+# Visualization
+matplotlib
+seaborn
