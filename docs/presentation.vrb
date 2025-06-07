@@ -1,0 +1,18 @@
+\frametitle{Gerçek Kullanım Örneği}
+\begin{lstlisting}[caption=Sistem Kullanımı]
+# Agent oluşturma
+agent = SocialGraphAgent()
+
+# Doğal dil sorgusu
+result = agent.analyze_social_network(
+    "Bu organizasyonda Frank'in kaybolması nasıl bir etki yaratır?"
+)
+
+# Otomatik analiz ve yorumlama
+print(result['insights'])
+\end{lstlisting}
+
+\textbf{Çıktı:}
+\begin{quote}
+"Frank'i kaybetmek önemli bir aksaklığa yol açacaktır. Birden fazla merkezi önem ölçümünde yüksek skorlar elde etmesi, onun sadece bir bağlayıcı değil, aynı zamanda temel bir bağlayıcı olduğunu göstermektedir..."
+\end{quote}

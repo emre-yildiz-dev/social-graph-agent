@@ -1,0 +1,10 @@
+\babel@toc {turkish}{}\relax 
+\beamer@sectionintoc {1}{Giriş ve Motivasyon}{3}{0}{1}
+\beamer@sectionintoc {2}{Çizge Teorisi Temelleri}{5}{0}{2}
+\beamer@sectionintoc {3}{LangGraph Framework}{8}{0}{3}
+\beamer@sectionintoc {4}{Sistem Mimarisi}{11}{0}{4}
+\beamer@sectionintoc {5}{Analiz Türleri ve Algoritmalar}{14}{0}{5}
+\beamer@sectionintoc {6}{AI Entegrasyonu ve Doğal Dil İşleme}{17}{0}{6}
+\beamer@sectionintoc {7}{Uygulama Örnekleri ve Sonuçlar}{20}{0}{7}
+\beamer@sectionintoc {8}{Sonuçlar ve Gelecek Çalışmalar}{23}{0}{8}
+\beamer@sectionintoc {9}{Sonuç}{27}{0}{9}
