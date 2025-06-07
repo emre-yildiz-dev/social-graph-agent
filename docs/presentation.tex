@@ -8,6 +8,7 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usetikzlibrary{positioning, shapes.geometric, arrows}
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{hyperref}
@@ -234,30 +235,7 @@ class GraphAgentState(TypedDict):
 \begin{frame}
 \frametitle{LangGraph İş Akışı Tasarımı}
 \begin{center}
-\begin{tikzpicture}[node distance=2cm, auto]
-\tikzstyle{process} = [rectangle, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=blue!20]
-\tikzstyle{decision} = [diamond, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=yellow!20]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-
-\node [process] (init) {Initialize};
-\node [process, below of=init] (determine) {Determine Analysis};
-\node [process, below of=determine] (load) {Load Graph};
-\node [decision, below of=load] (route) {Route Analysis};
-\node [process, below left of=route, xshift=-1cm] (basic) {Basic Metrics};
-\node [process, below of=route] (centrality) {Centrality};
-\node [process, below right of=route, xshift=1cm] (community) {Community};
-\node [process, below of=centrality, yshift=-0.5cm] (insights) {Generate Insights};
-
-\draw [arrow] (init) -- (determine);
-\draw [arrow] (determine) -- (load);
-\draw [arrow] (load) -- (route);
-\draw [arrow] (route) -- (basic);
-\draw [arrow] (route) -- (centrality);
-\draw [arrow] (route) -- (community);
-\draw [arrow] (basic) -- (insights);
-\draw [arrow] (centrality) -- (insights);
-\draw [arrow] (community) -- (insights);
-\end{tikzpicture}
+    \includegraphics[width=\textwidth]{workflow.png}
 \end{center}
 \end{frame}
 
@@ -266,26 +244,7 @@ class GraphAgentState(TypedDict):
 \begin{frame}
 \frametitle{Genel Sistem Mimarisi}
 \begin{center}
-\begin{tikzpicture}[node distance=1.5cm, auto]
-\tikzstyle{component} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!20, rounded corners]
-\tikzstyle{data} = [rectangle, minimum width=2.5cm, minimum height=0.8cm, text centered, draw=black, fill=orange!20]
-\tikzstyle{external} = [rectangle, minimum width=2.5cm, minimum height=0.8cm, text centered, draw=black, fill=red!20]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-
-\node [external] (user) {Kullanıcı};
-\node [component, below of=user] (agent) {Social Graph Agent};
-\node [data, left of=agent, xshift=-2cm] (models) {Pydantic Models};
-\node [component, right of=agent, xshift=2cm] (tools) {Graph Tools};
-\node [external, below of=agent] (llm) {Ollama LLM};
-\node [data, below of=tools] (nx) {NetworkX};
-
-\draw [arrow] (user) -- (agent);
-\draw [arrow] (agent) -- (models);
-\draw [arrow] (agent) -- (tools);
-\draw [arrow] (agent) -- (llm);
-\draw [arrow] (tools) -- (nx);
-\draw [arrow] (llm) -- (agent);
-\end{tikzpicture}
+    \includegraphics[width=\textwidth]{architecture.png}
 \end{center}
 
 \textbf{Katmanlar:}

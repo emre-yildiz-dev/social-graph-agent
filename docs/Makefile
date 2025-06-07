@@ -3,7 +3,7 @@
 # Değişkenler
 TEXFILE = presentation
 PDFFILE = $(TEXFILE).pdf
-LATEX = pdflatex
+LATEX = pdflatex -shell-escape
 BIBTEX = bibtex
 
 # Varsayılan hedef

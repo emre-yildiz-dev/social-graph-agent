@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.28)  7 JUN 2025 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.28)  7 JUN 2025 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,6 +825,27 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen313
+))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
@@ -871,24 +892,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -927,13 +948,13 @@ LaTeX Font Info:    ... okay on input line 39.
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count371
-\scratchdimen=\dimen313
+\scratchdimen=\dimen314
 \scratchbox=\box87
 \nofMPsegments=\count372
 \nofMParguments=\count373
 \everyMPshowfont=\toks54
 \MPscratchCnt=\count374
-\MPscratchDim=\dimen314
+\MPscratchDim=\dimen315
 \MPnumerator=\count375
 \makeMPintoPDFobject=\count376
 \everyMPtoPDFconversion=\toks55
@@ -946,64 +967,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 39.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 40.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 39.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 39.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 39.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 39.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 39.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 39.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 39.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 39.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 39.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 39.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 39.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 39.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 39.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 39.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
-9.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
-9.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 4
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 39.
+ut line 40.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1031,12 +1052,12 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count377
  (./presentation.nav)
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 39--39
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 40--40
  [][][][]  
  []
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 41--41
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 42--42
  [][][][]  
  []
 
@@ -1050,7 +1071,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 47--47
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 48--48
  [][][][]  
  []
 
@@ -1064,7 +1085,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [2
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 64--64
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 65--65
  [][][][]  
  []
 
@@ -1078,23 +1099,23 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 89--89
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 90--90
  [][][][]  
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 89.
+ut line 90.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1109,7 +1130,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 129--129
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 130--130
  [][][][]  
  []
 
@@ -1125,7 +1146,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \end{frame}
+l.130 \end{frame}
                  
 ? 
 
@@ -1138,12 +1159,12 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [5
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 147--147
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 148--148
  [][][][]  
  []
 
 
-Overfull \vbox (29.25851pt too high) detected at line 147
+Overfull \vbox (29.25851pt too high) detected at line 148
  []
 
 
@@ -1156,7 +1177,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 167--167
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 168--168
  [][][][]  
  []
 
@@ -1170,12 +1191,12 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 207--207
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 208--208
  [][][][]  
  []
 
 
-Overfull \vbox (7.60825pt too high) detected at line 207
+Overfull \vbox (7.60825pt too high) detected at line 208
  []
 
 
@@ -1188,19 +1209,19 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 210--210
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 211--211
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 232--232
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 233--233
  [][][][]  
  []
 
 (./presentation.vrb)
-Overfull \vbox (7.13875pt too high) detected at line 232
+Overfull \vbox (7.13875pt too high) detected at line 233
  []
 
 
@@ -1213,484 +1234,57 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 262--262
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 240--240
  [][][][]  
  []
 
-Missing character: There is no = in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/node distance' requires a value. I am g
-oing to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Runaway argument?
- = [rectangle, minimum width=2cm, minimum height=1cm, text centered, \ETC.
-! Paragraph ended before \tikz@style@parseA was complete.
+! Missing \endcsname inserted.
 <to be read again> 
-                   \par 
-l.262 \end{frame}
+                   \textwidth 
+l.240 \end{frame}
+                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.240 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \endcsname 
+l.240 \end{frame}
+                 
+? 
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.240 \end{frame}
                  
 ? 
 
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
+! Package keyval Error: width=\textwidth  undefined.
 
-See the pgfkeys package documentation for explanation.
+See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \end{frame}
+l.240 \end{frame}
                  
 ? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/decision' and I am going 
-to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below left of' requires a value. I am g
-oing to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/xshift' requires a value. I am going to
- ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below right of' requires a value. I am 
-going to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/xshift' requires a value. I am going to
- ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/process' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/yshift' requires a value. I am going to
- ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``determine''? on input 
-line 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``init''? on input line 
-262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``load''? on input line 
-262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``determine''? on input 
-line 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``route''? on input line
- 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``load''? on input line 
-262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``basic''? on input line
- 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``route''? on input line
- 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``centrality''? on input
- line 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``route''? on input line
- 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``community''? on input 
-line 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``route''? on input line
- 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``insights''? on input l
-ine 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``basic''? on input line
- 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``insights''? on input l
-ine 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``centrality''? on input
- line 262.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``insights''? on input l
-ine 262.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``community''? on input 
-line 262.
+<workflow.png, id=431, 436.6002pt x 293.55031pt>
+File: workflow.png Graphic file (type png)
+<use workflow.png>
+Package pdftex.def Info: workflow.png  used on input line 240.
+(pdftex.def)             Requested size: 436.59912pt x 293.54959pt.
+
+Overfull \hbox (3.2551pt too wide) in paragraph at lines 240--240
+ [] 
+ []
+
+
+Overfull \vbox (103.15083pt too high) detected at line 240
+ []
 
 
 
@@ -1701,342 +1295,53 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 
 [10
 
-]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 298--298
+ <./workflow.png (PNG copy)>]
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 257--257
  [][][][]  
  []
 
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/node distance' requires a value. I am g
-oing to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Runaway argument?
- = [rectangle, minimum width=3cm, minimum height=1cm, text centered, \ETC.
-! Paragraph ended before \tikz@style@parseA was complete.
+! Missing \endcsname inserted.
 <to be read again> 
-                   \par 
-l.298 \end{frame}
+                   \textwidth 
+l.257 \end{frame}
+                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.257 \end{frame}
+                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \endcsname 
+l.257 \end{frame}
+                 
+? 
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.257 \end{frame}
                  
 ? 
 
-! Package pgfkeys Error: I do not know the key '/tikz/external' and I am going 
-to ignore it. Perhaps you misspelled it.
+! Package keyval Error: width=\textwidth  undefined.
 
-See the pgfkeys package documentation for explanation.
+See the keyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 \end{frame}
+l.257 \end{frame}
                  
 ? 
+<architecture.png, id=458, 372.52577pt x 479.8132pt>
+File: architecture.png Graphic file (type png)
+<use architecture.png>
+Package pdftex.def Info: architecture.png  used on input line 257.
+(pdftex.def)             Requested size: 372.52486pt x 479.81203pt.
 
-! Package pgfkeys Error: I do not know the key '/tikz/component' and I am going
- to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/data' and I am going to i
-gnore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/left of' requires a value. I am going t
-o ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/xshift' requires a value. I am going to
- ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/component' and I am going
- to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/right of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no m in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/xshift' requires a value. I am going to
- ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/external' and I am going 
-to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/data' and I am going to i
-gnore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-Missing character: There is no = in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no s in font nullfont!
-
-! Package pgfkeys Error: The key '/tikz/below of' requires a value. I am going 
-to ignore this key.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``agent''? on input line
- 298.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``user''? on input line 
-298.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``models''? on input lin
-e 298.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``agent''? on input line
- 298.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``tools''? on input line
- 298.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``agent''? on input line
- 298.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``llm''? on input line 2
-98.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``agent''? on input line
- 298.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``nx''? on input line 29
-8.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``tools''? on input line
- 298.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/arrow' and I am going to 
-ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.298 \end{frame}
-                 
-? 
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``agent''? on input line
- 298.
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``llm''? on input line 2
-98.
+Overfull \vbox (346.94246pt too high) detected at line 257
+ []
 
 
 
@@ -2047,15 +1352,15 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 
 [11
 
-]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 301--301
+ <./architecture.png (PNG copy)>]
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 260--260
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 323--323
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 282--282
  [][][][]  
  []
 
@@ -2081,7 +1386,7 @@ l.21     # ... diğer
                       metrikler
 ? 
 )
-Overfull \vbox (29.40123pt too high) detected at line 323
+Overfull \vbox (29.40123pt too high) detected at line 282
  []
 
 
@@ -2094,14 +1399,14 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 326--326
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 285--285
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 347--347
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 306--306
  [][][][]  
  []
 
@@ -2227,7 +1532,7 @@ l.17         # Kümeleme katsayısı
                                     
 ? 
 )
-Overfull \vbox (18.40123pt too high) detected at line 347
+Overfull \vbox (18.40123pt too high) detected at line 306
  []
 
 
@@ -2240,7 +1545,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 375--375
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 334--334
  [][][][]  
  []
 
@@ -2254,7 +1559,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 402--402
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 361--361
  [][][][]  
  []
 
@@ -2268,19 +1573,19 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [15
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 405--405
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 364--364
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 427--427
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 386--386
  [][][][]  
  []
 
 (./presentation.vrb)
-Overfull \vbox (45.08832pt too high) detected at line 427
+Overfull \vbox (45.08832pt too high) detected at line 386
  []
 
 
@@ -2293,7 +1598,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 451--451
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 410--410
  [][][][]  
  []
 
@@ -2307,19 +1612,19 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 454--454
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 413--413
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 477--477
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 436--436
  [][][][]  
  []
 
 (./presentation.vrb)
-Overfull \vbox (62.40123pt too high) detected at line 477
+Overfull \vbox (62.40123pt too high) detected at line 436
  []
 
 
@@ -2332,7 +1637,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 496--496
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 455--455
  [][][][]  
  []
 
@@ -2346,7 +1651,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 527--527
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 486--486
  [][][][]  
  []
 
@@ -2360,7 +1665,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [20
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 552--552
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 511--511
  [][][][]  
  []
 
@@ -2374,14 +1679,14 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [21
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 555--555
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 514--514
  [][][][]  
  []
 
 \openout4 = `presentation.vrb'.
 
 
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 573--573
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 532--532
  [][][][]  
  []
 
@@ -2496,12 +1801,12 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [22
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 604--604
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 563--563
  [][][][]  
  []
 
 
-Overfull \vbox (46.5745pt too high) detected at line 604
+Overfull \vbox (46.5745pt too high) detected at line 563
  []
 
 
@@ -2514,7 +1819,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [23
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 625--625
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 584--584
  [][][][]  
  []
 
@@ -2528,7 +1833,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [24
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 653--653
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 612--612
  [][][][]  
  []
 
@@ -2542,12 +1847,12 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [25
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 681--681
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 640--640
  [][][][]  
  []
 
 
-Overfull \vbox (8.94057pt too high) detected at line 681
+Overfull \vbox (8.94057pt too high) detected at line 640
  []
 
 
@@ -2560,7 +1865,7 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [26
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 705--705
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 664--664
  [][][][]  
  []
 
@@ -2574,14 +1879,14 @@ Overfull \hbox (13.45627pt too wide) has occurred while \output is active
 [27
 
 ]
-Overfull \hbox (12.03958pt too wide) in paragraph at lines 723--723
+Overfull \hbox (12.03958pt too wide) in paragraph at lines 682--682
  [][][][]  
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
                    e
-l.723 \end{frame}
+l.682 \end{frame}
                  
 ? 
 
@@ -2612,10 +1917,10 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 8742652CCD807E60814F3234DCA84178;1516.
  ) 
 Here is how much of TeX's memory you used:
- 28685 strings out of 473190
- 558740 string characters out of 5715800
- 1282951 words of memory out of 5000000
- 51316 multiletter control sequences out of 15000+600000
+ 29633 strings out of 473190
+ 584905 string characters out of 5715800
+ 1312853 words of memory out of 5000000
+ 52248 multiletter control sequences out of 15000+600000
  567796 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,414b,1324s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2633,10 +1938,10 @@ ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on presentation.pdf (28 pages, 275300 bytes).
+Output written on presentation.pdf (28 pages, 403527 bytes).
 PDF statistics:
- 1134 PDF objects out of 1200 (max. 8388607)
+ 1136 PDF objects out of 1200 (max. 8388607)
  921 compressed objects within 10 object streams
  66 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 words of extra memory for PDF output out of 10000 (max. 10000000)
 
