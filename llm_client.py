@@ -8,7 +8,7 @@ from pydantic import BaseModel
 class OllamaClient:
     """Client for interacting with Ollama's Gemma3:27b model."""
     
-    def __init__(self, model_name: str = "gemma3:27b"):
+    def __init__(self, model_name: str = "gemma3n:latest"):
         """Initialize Ollama client with specified model."""
         self.model_name = model_name
         self.client = ollama

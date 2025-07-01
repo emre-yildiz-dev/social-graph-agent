@@ -24,7 +24,7 @@ class GraphAgentState(TypedDict):
 class SocialGraphAgent:
     """LangGraph agent for social network analysis using NetworkX and Ollama."""
     
-    def __init__(self, model_name: str = "gemma3:27b"):
+    def __init__(self, model_name: str = "gemma3n:latest"):
         """Initialize the social graph analysis agent."""
         self.analyzer = SocialGraphAnalyzer()
         self.llm_client = OllamaClient(model_name)
