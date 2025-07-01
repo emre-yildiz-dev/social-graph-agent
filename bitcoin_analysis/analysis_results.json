@@ -1,0 +1,261 @@
+{
+  "graph_info": {
+    "source": "datasets/soc-sign-bitcoin-alpha.csv",
+    "format": "CSV EdgeList",
+    "directed": false,
+    "loaded_at": "2025-07-01T12:54:05.065111",
+    "original_edges": 24186,
+    "final_nodes": 3783,
+    "final_edges": 14124,
+    "preprocessing": {
+      "remove_self_loops": true,
+      "remove_isolates": false,
+      "largest_component_only": false,
+      "original_nodes": 3783,
+      "original_edges": 14124,
+      "final_nodes": 3783,
+      "final_edges": 14124
+    }
+  },
+  "metrics": {
+    "basic_stats": {
+      "nodes": 3783,
+      "edges": 14124,
+      "density": 0.002
+    },
+    "connectivity": {
+      "clustering_coefficient": 0.078,
+      "connected_components": 5,
+      "largest_component_size": 3775
+    },
+    "centrality_leaders": {
+      "degree": {
+        "1": 0.1351136964569011,
+        "8": 0.07377049180327869,
+        "3": 0.06953992596509784,
+        "2": 0.06319407720782655,
+        "11": 0.06292966684294024
+      },
+      "betweenness": {
+        "1": 0.17779939721853946,
+        "2": 0.07366554609163797,
+        "8": 0.06297942860328866,
+        "4": 0.058072498262130755,
+        "11": 0.05523139925748475
+      },
+      "closeness": {
+        "2": 0.44594634958713475,
+        "11": 0.4372479881880126,
+        "1": 0.42348104377188267,
+        "10": 0.41816754633170694,
+        "22": 0.41271418326173726
+      },
+      "eigenvector": {
+        "11": 0.1932417439745311,
+        "2": 0.17398863899599373,
+        "177": 0.1662679509434921,
+        "3": 0.15863215898530508,
+        "7": 0.1547772417055744
+      }
+    }
+  },
+  "communities": {
+    "count": 20,
+    "sizes": [
+      506,
+      892,
+      620,
+      641,
+      296,
+      40,
+      211,
+      402,
+      79,
+      62,
+      3,
+      3,
+      8,
+      6,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "modularity": 0.4597647171418005
+  },
+  "influential_nodes": {
+    "degree": [
+      [
+        "1",
+        0.1351136964569011
+      ],
+      [
+        "8",
+        0.07377049180327869
+      ],
+      [
+        "3",
+        0.06953992596509784
+      ],
+      [
+        "2",
+        0.06319407720782655
+      ],
+      [
+        "11",
+        0.06292966684294024
+      ],
+      [
+        "7",
+        0.06187202538339503
+      ],
+      [
+        "177",
+        0.060549973558963514
+      ],
+      [
+        "4",
+        0.05843469063987308
+      ],
+      [
+        "15",
+        0.05631940772078266
+      ],
+      [
+        "5",
+        0.05023796932839767
+      ]
+    ],
+    "betweenness": [
+      [
+        "1",
+        0.17779939721853946
+      ],
+      [
+        "2",
+        0.07366554609163797
+      ],
+      [
+        "8",
+        0.06297942860328866
+      ],
+      [
+        "4",
+        0.058072498262130755
+      ],
+      [
+        "11",
+        0.05523139925748475
+      ],
+      [
+        "15",
+        0.05494274082143414
+      ],
+      [
+        "3",
+        0.049056974176190954
+      ],
+      [
+        "13",
+        0.04208989979999859
+      ],
+      [
+        "10",
+        0.040026061754108465
+      ],
+      [
+        "177",
+        0.03881680070309621
+      ]
+    ],
+    "closeness": [
+      [
+        "2",
+        0.44594634958713475
+      ],
+      [
+        "11",
+        0.4372479881880126
+      ],
+      [
+        "1",
+        0.42348104377188267
+      ],
+      [
+        "10",
+        0.41816754633170694
+      ],
+      [
+        "22",
+        0.41271418326173726
+      ],
+      [
+        "95",
+        0.40801916817587786
+      ],
+      [
+        "4",
+        0.40744530155397085
+      ],
+      [
+        "9",
+        0.4054275941719618
+      ],
+      [
+        "15",
+        0.404513095839243
+      ],
+      [
+        "26",
+        0.40351622439337326
+      ]
+    ],
+    "eigenvector": [
+      [
+        "11",
+        0.1932417439745311
+      ],
+      [
+        "2",
+        0.17398863899599373
+      ],
+      [
+        "177",
+        0.1662679509434921
+      ],
+      [
+        "3",
+        0.15863215898530508
+      ],
+      [
+        "7",
+        0.1547772417055744
+      ],
+      [
+        "8",
+        0.15117752768083503
+      ],
+      [
+        "26",
+        0.14739840421359685
+      ],
+      [
+        "1",
+        0.13645539638601137
+      ],
+      [
+        "95",
+        0.13095774210890032
+      ],
+      [
+        "24",
+        0.12948629905537826
+      ]
+    ]
+  },
+  "robustness": null,
+  "ai_insights": "## Analysis of the Bitcoin Social Trust Network\n\nHere's a comprehensive analysis of the Bitcoin social trust network, based on the provided results. This analysis aims to answer your question directly, explain the findings, provide context, offer actionable insights, and highlight notable patterns.\n\n**1. Direct Answer:**\n\nThis network represents the relationships and connections within a community of Bitcoin participants. The analysis reveals a moderately dense network with a few influential individuals and a somewhat fragmented structure. Understanding this network can provide insights into the flow of information, trust propagation, and potential vulnerabilities within the Bitcoin ecosystem.\n\n**2. Explanation of Relevant Findings (Accessible Terms):**\n\nLet's break down the key metrics:\n\n* **Basic Stats:**\n    * **Nodes (3783):** These represent the individual participants or entities in the network \u2013 people, organizations, addresses, etc.\n    * **Edges (14124):** These represent the connections or relationships between these participants.\n    * **Density (0.002):** This is quite low. It means that, on average, each participant is only connected to a small fraction of the total participants. The network isn't highly interconnected overall.\n\n* **Connectivity:**\n    * **Clustering Coefficient (0.078):** This indicates the tendency of network neighbors to also be neighbors themselves. A low score suggests that the network doesn't form tightly knit communities. Connections are more scattered.\n    * **Connected Components (5):** The network isn't a single, unified group. It's divided into five separate clusters or groups of participants that are more densely connected internally than to other groups.\n    * **Largest Component Size (3775):** The largest group of participants is quite substantial, representing a significant portion of the network.\n\n* **Centrality Leaders (Who are the most important players?):** This section highlights individuals or entities with high influence based on different measures:\n    * **Degree Centrality:** Measures the number of direct connections someone has. The top individuals here (with values around 0.13-0.11) are highly connected and likely act as key hubs for information flow. They have many direct relationships within the network.\n    * **Betweenness Centrality:** Measures how often someone lies on the shortest path between two other nodes. The top individuals (around 0.17-0.07) are crucial for connecting different parts of the network. Information often has to pass through them.\n    * **Closeness Centrality:** Measures the average distance from someone to all other nodes in the network. The top individuals (around 0.44-0.41) are well-positioned to quickly reach or be reached by others in the network.\n    * **Eigenvector Centrality:** Measures the influence of a node based on the influence of its neighbors. The top individuals (around 0.19-0.16) are connected to other influential individuals, making them highly influential themselves.\n\n**3. Context and Interpretation:**\n\nThe results suggest a network that is:\n\n* **Not highly centralized:** There isn't a single dominant individual controlling the flow of information. However, there are several influential individuals who act as important connectors.\n* **Fragmented:** The presence of multiple connected components indicates that the network isn't a single cohesive community. There are distinct subgroups with varying levels of interaction.\n* **Relatively sparse:** The low density suggests that relationships are not widespread, and information might not propagate as quickly or easily as in a denser network.\n* **Influenced by a few key players:** The centrality measures clearly point to a handful of individuals who have a disproportionate impact on the network's structure and information flow.\n\n**4. Actionable Insights and Recommendations:**\n\nUnderstanding this network can be valuable for several purposes:\n\n* **Identifying Key Influencers:** Focus on engaging with and understanding the perspectives of the individuals with high degree, betweenness, closeness, and eigenvector centrality. They can be important sources of information and potential collaborators.\n* **Understanding Network Dynamics:** The fragmented nature of the network suggests that information and trust might flow more readily within specific subgroups. Analyzing these subgroups could reveal important dynamics.\n* **Identifying Potential Bottlenecks:** Individuals with high betweenness centrality are crucial for information flow. Disrupting their connections could potentially hinder communication within the network.\n* **Targeted Outreach:** If you need to disseminate information or build trust within the Bitcoin community, targeting the influential individuals identified can be more effective.\n* **Monitoring Network Health:** Changes in the connections and centrality measures over time could indicate shifts in the community's structure, trust patterns, or the emergence of new influential actors.\n\n**5. Notable Patterns or Anomalies:**\n\n* **Concentration of Influence:** A relatively small number of individuals hold a significant amount of influence across different centrality measures. This highlights the importance of these individuals within the Bitcoin social fabric.\n* **Multiple Connected Components:** The presence of five distinct connected components is a notable pattern. It suggests the existence of different communities or interest groups within the broader Bitcoin network. Understanding the nature of these components could be beneficial.\n* **Varied Centrality Profiles:** Individuals can be influential in different ways. Some are highly connected (high degree), while others are crucial for bridging different parts of the network (high betweenness), and others are well-positioned for rapid information dissemination (high closeness).\n\n**In conclusion, this analysis provides a valuable snapshot of the Bitcoin social trust network. By understanding its structure and the roles of key individuals, we can gain insights into how information flows, where trust resides, and how the community operates. This information can be leveraged for various strategic purposes, from targeted communication to understanding the overall health and dynamics of the Bitcoin ecosystem.**",
+  "analysis_timestamp": "2025-07-01T12:55:38.252622"
+}

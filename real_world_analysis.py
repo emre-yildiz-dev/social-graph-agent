@@ -51,19 +51,27 @@ class RealWorldGraphAnalyzer:
         self.graph_info = {}
         self.analysis_results = {}
         
-    def load_graph_from_csv_edgelist(self, filepath: str, source_col: str = "source", 
-                                   target_col: str = "target", weight_col: Optional[str] = None,
+    def load_graph_from_csv_edgelist(self, filepath: str, source_col: Union[str, int] = "source", 
+                                   target_col: Union[str, int] = "target", weight_col: Optional[Union[str, int]] = None,
                                    directed: bool = False, delimiter: str = ",") -> nx.Graph:
         """Load graph from CSV edge list format."""
         print(f"📁 Loading graph from CSV edge list: {filepath}")
         
         try:
-            df = pd.read_csv(filepath, delimiter=delimiter)
+            df = pd.read_csv(filepath, delimiter=delimiter, comment='#', header=None)
             print(f"   📊 Found {len(df)} edges in file")
             
+            # For files with no headers, use column indices
+            if source_col == "source":
+                source_col = 0
+            if target_col == "target":  
+                target_col = 1
+            
             # Validate required columns
-            if source_col not in df.columns or target_col not in df.columns:
-                raise ValueError(f"Required columns {source_col}, {target_col} not found. Available: {list(df.columns)}")
+            max_col = max(source_col if isinstance(source_col, int) else 0, 
+                         target_col if isinstance(target_col, int) else 1)
+            if max_col >= len(df.columns):
+                raise ValueError(f"Required column index {max_col} not found. Available columns: {len(df.columns)}")
             
             # Create graph
             if directed:
@@ -78,7 +86,7 @@ class RealWorldGraphAnalyzer:
                 source = str(row[source_col])
                 target = str(row[target_col])
                 
-                if weight_col and weight_col in df.columns:
+                if weight_col is not None and isinstance(weight_col, int) and weight_col < len(df.columns):
                     weight = float(row[weight_col])
                     G.add_edge(source, target, weight=weight)
                 else:
@@ -224,10 +232,12 @@ class RealWorldGraphAnalyzer:
         
         print(f"🔍 Auto-detecting format for: {filepath.name}")
         
-        if extension == '.csv':
+        if extension in ['.csv', '.txt']:
             # Try to determine if it's an edge list or adjacency matrix
             try:
-                df = pd.read_csv(filepath, nrows=5)
+                # Use appropriate delimiter for .txt files
+                delimiter = kwargs.get('delimiter', '\t' if extension == '.txt' else ',')
+                df = pd.read_csv(filepath, delimiter=delimiter, nrows=5, comment='#')
                 
                 if len(df.columns) == len(df.index) and all(col in df.index for col in df.columns):
                     # Likely adjacency matrix

@@ -1,170 +1,633 @@
 {
   "graph_info": {
-    "source": "sample_data/collaboration_network.json",
-    "format": "JSON",
+    "source": "datasets/ca-GrQc.txt",
+    "format": "CSV EdgeList",
     "directed": false,
-    "loaded_at": "2025-07-01T12:10:21.545042",
-    "original_nodes": 5,
-    "original_edges": 5,
-    "final_nodes": 5,
-    "final_edges": 5,
+    "loaded_at": "2025-07-01T12:51:00.097393",
+    "original_edges": 28980,
+    "final_nodes": 5242,
+    "final_edges": 14496,
     "preprocessing": {
-      "remove_self_loops": false,
+      "remove_self_loops": true,
       "remove_isolates": false,
       "largest_component_only": false,
-      "original_nodes": 5,
-      "original_edges": 5,
-      "final_nodes": 5,
-      "final_edges": 5
+      "original_nodes": 5242,
+      "original_edges": 14496,
+      "final_nodes": 5242,
+      "final_edges": 14484
     }
   },
   "metrics": {
     "basic_stats": {
-      "nodes": 5,
-      "edges": 5,
-      "density": 0.5
+      "nodes": 5242,
+      "edges": 14484,
+      "density": 0.0011
     },
     "connectivity": {
-      "clustering_coefficient": 0.5,
-      "connected_components": 1,
-      "largest_component_size": 5
+      "clustering_coefficient": 0.6298,
+      "connected_components": 355,
+      "largest_component_size": 4158
     },
     "centrality_leaders": {
       "degree": {
-        "researcher1": 0.75,
-        "researcher2": 0.5,
-        "researcher3": 0.5,
-        "researcher5": 0.5,
-        "researcher4": 0.25
+        "21012": 0.015455065827132226,
+        "21281": 0.01507345926349933,
+        "22691": 0.014691852699866437,
+        "12365": 0.014691852699866437,
+        "6610": 0.012974623163518412
       },
       "betweenness": {
-        "researcher1": 0.6666666666666666,
-        "researcher2": 0.5,
-        "researcher3": 0.0,
-        "researcher4": 0.0,
-        "researcher5": 0.0
+        "13801": 0.037027150433897676,
+        "9572": 0.025689005573850524,
+        "14599": 0.025488418054511023,
+        "7689": 0.024970551728636943,
+        "13929": 0.02465268472568471
       },
       "closeness": {
-        "researcher1": 0.8,
-        "researcher2": 0.6666666666666666,
-        "researcher3": 0.5714285714285714,
-        "researcher5": 0.5714285714285714,
-        "researcher4": 0.4444444444444444
+        "13801": 0.19428463503141283,
+        "14485": 0.18953808583111678,
+        "9572": 0.18903821471838708,
+        "17655": 0.18896237842386998,
+        "2654": 0.18712852106232164
       },
       "eigenvector": {
-        "researcher1": 0.6037035301706528,
-        "researcher3": 0.4971525984525413,
-        "researcher5": 0.4971525984525413,
-        "researcher2": 0.34248744909850964,
-        "researcher4": 0.15467056143060928
+        "21012": 0.15556159123701108,
+        "2741": 0.15357410734383173,
+        "12365": 0.15307174232945606,
+        "21508": 0.15119370275670213,
+        "9785": 0.1509030053738968
       }
     }
   },
   "communities": {
-    "count": 2,
+    "count": 392,
     "sizes": [
+      129,
+      116,
+      38,
+      101,
+      266,
+      189,
+      167,
+      104,
+      185,
+      150,
+      84,
+      230,
+      62,
+      159,
+      48,
+      20,
+      47,
+      2,
+      70,
+      43,
+      116,
+      181,
+      64,
+      79,
+      58,
+      258,
+      207,
+      56,
+      212,
+      194,
+      67,
       3,
-      2
+      16,
+      2,
+      2,
+      2,
+      151,
+      40,
+      114,
+      2,
+      2,
+      7,
+      82,
+      10,
+      2,
+      2,
+      2,
+      4,
+      3,
+      3,
+      2,
+      6,
+      4,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      6,
+      3,
+      4,
+      12,
+      2,
+      2,
+      7,
+      3,
+      2,
+      5,
+      7,
+      2,
+      2,
+      4,
+      2,
+      3,
+      5,
+      3,
+      2,
+      14,
+      2,
+      2,
+      5,
+      2,
+      2,
+      4,
+      2,
+      3,
+      2,
+      2,
+      3,
+      40,
+      8,
+      2,
+      6,
+      9,
+      5,
+      3,
+      3,
+      2,
+      4,
+      5,
+      4,
+      4,
+      6,
+      3,
+      3,
+      4,
+      3,
+      2,
+      2,
+      7,
+      5,
+      5,
+      3,
+      3,
+      3,
+      2,
+      2,
+      5,
+      8,
+      3,
+      8,
+      4,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      4,
+      5,
+      5,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2,
+      5,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      6,
+      3,
+      3,
+      2,
+      2,
+      3,
+      6,
+      2,
+      2,
+      3,
+      2,
+      8,
+      3,
+      3,
+      2,
+      2,
+      4,
+      8,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      7,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      2,
+      2,
+      4,
+      2,
+      3,
+      3,
+      3,
+      2,
+      4,
+      4,
+      4,
+      3,
+      2,
+      4,
+      3,
+      2,
+      2,
+      2,
+      8,
+      8,
+      2,
+      2,
+      4,
+      9,
+      2,
+      3,
+      3,
+      3,
+      2,
+      4,
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      7,
+      2,
+      7,
+      2,
+      2,
+      2,
+      2,
+      3,
+      7,
+      3,
+      3,
+      2,
+      2,
+      5,
+      3,
+      4,
+      2,
+      3,
+      3,
+      4,
+      2,
+      3,
+      5,
+      2,
+      3,
+      2,
+      5,
+      3,
+      5,
+      4,
+      2,
+      2,
+      2,
+      2,
+      6,
+      3,
+      5,
+      4,
+      3,
+      3,
+      6,
+      2,
+      2,
+      5,
+      2,
+      2,
+      6,
+      2,
+      3,
+      2,
+      3,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      3,
+      2,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      2,
+      6,
+      3,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      4,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      7,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      6,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
     ],
-    "modularity": 0.22
+    "modularity": 0.8620184250773797
   },
   "influential_nodes": {
     "degree": [
       [
-        "researcher1",
-        0.75
+        "21012",
+        0.015455065827132226
       ],
       [
-        "researcher2",
-        0.5
+        "21281",
+        0.01507345926349933
       ],
       [
-        "researcher3",
-        0.5
+        "22691",
+        0.014691852699866437
       ],
       [
-        "researcher5",
-        0.5
+        "12365",
+        0.014691852699866437
       ],
       [
-        "researcher4",
-        0.25
+        "6610",
+        0.012974623163518412
+      ],
+      [
+        "9785",
+        0.012974623163518412
+      ],
+      [
+        "21508",
+        0.012783819881701965
+      ],
+      [
+        "17655",
+        0.012593016599885518
+      ],
+      [
+        "2741",
+        0.01240221331806907
+      ],
+      [
+        "19423",
+        0.012020606754436176
       ]
     ],
     "betweenness": [
       [
-        "researcher1",
-        0.6666666666666666
+        "13801",
+        0.037027150433897676
       ],
       [
-        "researcher2",
-        0.5
+        "9572",
+        0.025689005573850524
       ],
       [
-        "researcher3",
-        0.0
+        "14599",
+        0.025488418054511023
       ],
       [
-        "researcher4",
-        0.0
+        "7689",
+        0.024970551728636943
       ],
       [
-        "researcher5",
-        0.0
+        "13929",
+        0.02465268472568471
+      ],
+      [
+        "5052",
+        0.024422231614460266
+      ],
+      [
+        "14485",
+        0.023502736469008904
+      ],
+      [
+        "2710",
+        0.022354920330838166
+      ],
+      [
+        "14265",
+        0.01973105873743096
+      ],
+      [
+        "17655",
+        0.01799856257605194
       ]
     ],
     "closeness": [
       [
-        "researcher1",
-        0.8
+        "13801",
+        0.19428463503141283
       ],
       [
-        "researcher2",
-        0.6666666666666666
+        "14485",
+        0.18953808583111678
       ],
       [
-        "researcher3",
-        0.5714285714285714
+        "9572",
+        0.18903821471838708
       ],
       [
-        "researcher5",
-        0.5714285714285714
+        "17655",
+        0.18896237842386998
       ],
       [
-        "researcher4",
-        0.4444444444444444
+        "2654",
+        0.18712852106232164
+      ],
+      [
+        "21012",
+        0.18654622580583352
+      ],
+      [
+        "12545",
+        0.18598852330314233
+      ],
+      [
+        "25006",
+        0.18560115626896184
+      ],
+      [
+        "12365",
+        0.18530908453426106
+      ],
+      [
+        "22691",
+        0.18475874375871945
       ]
     ],
     "eigenvector": [
       [
-        "researcher1",
-        0.6037035301706528
+        "21012",
+        0.15556159123701108
       ],
       [
-        "researcher3",
-        0.4971525984525413
+        "2741",
+        0.15357410734383173
       ],
       [
-        "researcher5",
-        0.4971525984525413
+        "12365",
+        0.15307174232945606
       ],
       [
-        "researcher2",
-        0.34248744909850964
+        "21508",
+        0.15119370275670213
       ],
       [
-        "researcher4",
-        0.15467056143060928
+        "9785",
+        0.1509030053738968
+      ],
+      [
+        "15003",
+        0.15040747274971278
+      ],
+      [
+        "25346",
+        0.1490690994057331
+      ],
+      [
+        "7956",
+        0.1490661817932526
+      ],
+      [
+        "14807",
+        0.14900666412138108
+      ],
+      [
+        "12781",
+        0.14888087132661842
       ]
     ]
   },
-  "robustness": {
-    "original_connectivity": {
-      "components": 1,
-      "largest_component": 5
-    },
-    "removal_results": []
-  },
-  "ai_insights": "Okay, let's dive into a comprehensive analysis of your social network. Here's a breakdown of the results, explained in accessible terms, along with insights and recommendations.\n\n## Comprehensive Analysis of Your Social Network\n\nThis analysis reveals a relatively small, tightly-knit social network of five individuals (we'll refer to them as Researcher 1 through Researcher 5).  The network exhibits some interesting characteristics regarding connectivity, influence, and structure.\n\n**1. Overall Network Characteristics (Basic Metrics):**\n\n*   **Nodes (5):** You have five individuals in your network.\n*   **Edges (5):** There are five connections (relationships) between these individuals. This indicates a very sparse network \u2013 not everyone is connected to everyone else.\n*   **Density (0.5):**  A density of 0.5 suggests a moderately connected network.  It's not extremely dense (where everyone is connected to everyone else), but it's also not very sparse (where most people are isolated).  This indicates a reasonable level of interaction within the group.\n\n**2. Network Structure & Connectivity:**\n\n*   **Connected Components (1):** All five researchers are part of a single, connected group. This means there are no isolated subgroups within your network.  Everyone can theoretically reach everyone else through a chain of connections.\n*   **Largest Component Size (5):**  The entire network forms a single component, confirming the previous point.\n*   **Clustering Coefficient (0.5):** This is a key metric. A clustering coefficient of 0.5 means that, on average, people in your network tend to have friends who are also friends with each other.  It suggests a degree of cohesion and collaboration within the group.  It's not extremely high, but it's a positive sign.\n\n**3. Centrality Analysis: Identifying Key Players**\n\nCentrality measures help us identify the most important individuals in the network.  We've looked at several types of centrality:\n\n*   **Degree Centrality:** This measures the number of direct connections someone has.\n    *   **Researcher 1 (0.75):**  Researcher 1 is the most central person in the network, having the most direct connections. They act as a hub, connecting several other researchers.\n    *   **Researcher 2, 3, and 5 (0.5):** These researchers have a moderate number of connections, placing them as important players within the network.\n    *   **Researcher 4 (0.25):** Researcher 4 has the fewest direct connections, suggesting they are less central in terms of immediate reach.\n\n*   **Betweenness Centrality:** This measures how often someone lies on the shortest path between two other people in the network.  High betweenness indicates someone controls information flow.\n    *   **Researcher 1 (0.6667):** Researcher 1 is the most important in terms of information flow.  They are frequently on the shortest paths between other pairs of researchers.  This means information often has to pass *through* them.\n    *   **Researcher 2 (0.5):** Researcher 2 also plays a significant role in connecting others.\n    *   **Researchers 3, 4, and 5 (0.0):** These researchers are not on the shortest paths between others, suggesting they don't act as key connectors.\n\n*   **Closeness Centrality:** This measures the average distance from someone to all other people in the network.  High closeness means someone can quickly reach everyone else.\n    *   **Researcher 1 (0.8):** Researcher 1 is the closest to everyone else in the network, meaning they can reach all other researchers in a few steps.\n    *   **Researcher 2 (0.67):** Researcher 2 is also relatively close to everyone.\n    *   **Researchers 3, 5, and 4 (lower values):** These researchers are further away from others in the network.\n\n*   **Eigenvector Centrality:** This measures the influence of a node based on the influence of its neighbors.  It's like being connected to other influential people makes you more influential.\n    *   **Researcher 1 (0.60):** Researcher 1 is the most influential person in the network, as they are connected to other influential people.\n    *   **Researcher 3, 5 (0.49):** These researchers are also somewhat influential, as they are connected to influential people.\n    *   **Researcher 2, 4 (lower values):** These researchers are less influential, as they are connected to less influential people.\n\n**4. Notable Patterns and Anomalies:**\n\n*   **Hub and Spoke Structure:** The network has a clear hub-and-spoke structure, with Researcher 1 acting as the central hub.  This is a common pattern.\n*   **Potential Bottlenecks:**  If Researcher 1 were to become unavailable or disconnected, it could significantly disrupt the flow of information and collaboration within the network.\n*   **Limited Connections for Researcher 4:** Researcher 4's low degree centrality suggests they may be somewhat isolated or have limited involvement in the core network activities.\n\n**Actionable Insights and Recommendations:**\n\n1.  **Leverage Researcher 1:**  Recognize Researcher 1's central role.  They are a key point of contact and a valuable resource for disseminating information and facilitating collaboration.  Ensure they have the bandwidth to manage this role.\n2.  **Address Researcher 4's Isolation:**  Consider strategies to integrate Researcher 4 more fully into the network.  This could involve:\n    *   Facilitating connections with other researchers.\n    *   Creating opportunities for them to contribute to shared projects.\n    *   Encouraging them to participate in network activities.\n3.  **Network Resilience:**  Be aware of the vulnerability associated with the hub-and-spoke structure.  Consider building redundancy by fostering connections between other researchers to reduce reliance on Researcher 1.\n4.  **Collaboration Opportunities:**  Focus on projects that leverage Researcher 1's connections and expertise to benefit the entire network.\n5.  **Information Flow:**  Understand that information often flows through Researcher 1.  Ensure they have the tools and support they need to effectively manage and disseminate information.\n6.  **Network Expansion:**  Consider expanding the network by strategically connecting Researcher 4 to other relevant individuals or groups. This could broaden the network's reach and resilience.\n\n**In summary:** Your network is relatively small but has a clear structure with Researcher 1 as a central hub.  By understanding these patterns, you can make informed decisions to strengthen the network, improve communication, and foster greater collaboration.  The key is to leverage the strengths of the central players while addressing potential vulnerabilities and promoting inclusivity.\n\n\n\n",
-  "analysis_timestamp": "2025-07-01T12:10:48.139796"
+  "robustness": null,
+  "ai_insights": "## Analysis of the General Relativity Researcher Collaboration Network\n\nHere's a comprehensive analysis of the scientific collaboration network of General Relativity researchers, based on the provided data. This analysis aims to understand the structure of the network, identify key players, and offer insights for fostering more effective collaboration.\n\n**1. Direct Answer to the User's Question:**\n\nThis analysis examines the collaboration network of General Relativity researchers to identify key collaborators, understand the network's overall structure, and highlight potential areas for strengthening scientific exchange.\n\n**2. Explanation of Relevant Findings in Accessible Terms:**\n\nLet's break down the key metrics:\n\n* **Basic Metrics:**\n    * **Nodes (5242):** This represents the number of individual researchers in the network.\n    * **Edges (14484):** This indicates the number of collaborations or connections between researchers. Each edge signifies a joint publication, co-authored paper, or other form of collaboration.\n    * **Density (0.0011):** This is a relatively low density. It suggests that, on average, each researcher has a limited number of collaborations compared to the total possible. This could mean the network is not highly interconnected.\n\n* **Connectivity:**\n    * **Clustering Coefficient (0.6298):** This is a fairly high clustering coefficient. It means that when researchers collaborate with one person, there's a good chance they also collaborate with others who work with that same person. This suggests tightly knit communities within the network.\n    * **Connected Components (355):** This indicates the network is not a single, fully connected graph. Instead, it's composed of many smaller, independent clusters of collaborators.\n    * **Largest Component Size (4158):** The largest cluster contains a significant portion of the researchers, suggesting a core group of highly interconnected individuals.\n\n* **Centrality Leaders (Who are the most important researchers?):** We've looked at several centrality measures:\n    * **Degree Centrality:** Measures the number of direct connections a researcher has. The top researchers in this category (21012, 21281, 22691, 12365, 6610) are highly connected and act as central hubs in the network. They are likely involved in numerous collaborations.\n    * **Betweenness Centrality:** Measures how often a researcher lies on the shortest path between other pairs of researchers. The top researchers here (13801, 9572, 14599, 7689, 13929) are crucial for information flow within the network. They bridge different communities and are vital for communication.\n    * **Closeness Centrality:** Measures the average distance from a researcher to all other researchers in the network. The top researchers (13801, 14485, 9572, 17655, 2654) are well-positioned to quickly reach other researchers in the network.\n    * **Eigenvector Centrality:** Measures the influence of a researcher based on the influence of their collaborators. The top researchers here (21012, 2741, 12365, 21508, 9785) are connected to other influential researchers, indicating they are highly regarded within the field.\n\n**3. Context and Interpretation of the Results:**\n\nThe results paint a picture of a General Relativity research community with a moderately dense network, characterized by strong internal clustering. There isn't a single dominant individual, but rather a group of influential researchers who act as hubs and bridges between different research groups. The presence of many connected components suggests that the field is not entirely homogenous in its research focus, with distinct communities forming around specific areas of expertise.\n\nThe high clustering coefficient is particularly noteworthy. It implies that researchers tend to collaborate within established circles, reinforcing existing research communities. This can be beneficial for deep, focused work but might hinder cross-pollination of ideas between different subfields.\n\n**4. Actionable Insights or Recommendations:**\n\nBased on this analysis, here are some actionable insights and recommendations:\n\n* **Identify and Leverage Central Researchers:** The researchers with high degree, betweenness, closeness, and eigenvector centrality (listed above) are key individuals to connect with for fostering collaboration and disseminating information. They can act as catalysts for new projects and knowledge sharing.\n* **Facilitate Cross-Community Collaboration:** Given the presence of multiple connected components, initiatives to encourage collaboration *between* these communities could lead to novel breakthroughs. This could involve organizing workshops, conferences, or funding opportunities that bring researchers from different clusters together.\n* **Map Research Specializations:** Further analysis could involve mapping the research topics of the researchers in the network. This would help identify the different communities and understand the areas where cross-community collaboration might be most beneficial.\n* **Support Network Expansion:** Consider initiatives that encourage new researchers to join the network and form new connections. This could involve mentorship programs, networking events, or online platforms.\n* **Analyze Collaboration Patterns:** Investigate the patterns of collaboration \u2013 who collaborates with whom, and how frequently. This can reveal emerging research trends and potential areas for future collaboration.\n\n**5. Notable Patterns or Anomalies:**\n\n* **Strong Hubs:** The presence of multiple researchers with high scores across different centrality measures indicates a few highly influential figures who play a significant role in connecting the network.\n* **Distinct Communities:** The numerous connected components highlight the existence of relatively isolated research communities within General Relativity.\n* **Moderate Overall Density:** The relatively low network density suggests that there's potential for more collaboration between researchers who are not currently connected.\n* **Potential for Information Bottlenecks:** While betweenness centrality identifies bridges, it's worth noting that if these individuals become unavailable or their focus shifts, it could create information bottlenecks within the network.\n\n**In conclusion,** this analysis provides valuable insights into the structure of the General Relativity researcher collaboration network. By understanding the key players, community structure, and collaboration patterns, we can develop targeted strategies to foster more effective scientific exchange and accelerate progress in the field. This information can be particularly useful for funding agencies, conference organizers, and research institutions looking to promote collaboration and innovation.",
+  "analysis_timestamp": "2025-07-01T12:52:48.878837"
 }

@@ -1,0 +1,256 @@
+{
+  "graph_info": {
+    "source": "datasets/facebook_combined.txt",
+    "format": "CSV EdgeList",
+    "directed": false,
+    "loaded_at": "2025-07-01T12:36:53.021526",
+    "original_edges": 88234,
+    "final_nodes": 4039,
+    "final_edges": 88234,
+    "preprocessing": {
+      "remove_self_loops": true,
+      "remove_isolates": false,
+      "largest_component_only": true,
+      "original_nodes": 4039,
+      "original_edges": 88234,
+      "final_nodes": 4039,
+      "final_edges": 88234
+    }
+  },
+  "metrics": {
+    "basic_stats": {
+      "nodes": 4039,
+      "edges": 88234,
+      "density": 0.0108
+    },
+    "connectivity": {
+      "clustering_coefficient": 0.5192,
+      "connected_components": 1,
+      "largest_component_size": 4039
+    },
+    "centrality_leaders": {
+      "degree": {
+        "107": 0.258791480931154,
+        "1684": 0.1961367013372957,
+        "1912": 0.18697374938088163,
+        "3437": 0.13546310054482416,
+        "0": 0.08593363051015354
+      },
+      "betweenness": {
+        "107": 0.4805180785560152,
+        "1684": 0.3377974497301992,
+        "3437": 0.23611535735892905,
+        "1912": 0.2292953395868782,
+        "1085": 0.14901509211665306
+      },
+      "closeness": {
+        "107": 0.45969945355191255,
+        "58": 0.3974018305284913,
+        "428": 0.3948371956585509,
+        "563": 0.3939127889961955,
+        "1684": 0.39360561458231796
+      },
+      "eigenvector": {
+        "1912": 0.09540696149067629,
+        "2266": 0.08698327767886552,
+        "2206": 0.08605239270584342,
+        "2233": 0.08517340912756598,
+        "2464": 0.08427877475676092
+      }
+    }
+  },
+  "communities": {
+    "count": 15,
+    "sizes": [
+      350,
+      455,
+      435,
+      423,
+      535,
+      323,
+      129,
+      548,
+      73,
+      237,
+      61,
+      206,
+      226,
+      19,
+      19
+    ],
+    "modularity": 0.8347831888253011
+  },
+  "influential_nodes": {
+    "degree": [
+      [
+        "107",
+        0.258791480931154
+      ],
+      [
+        "1684",
+        0.1961367013372957
+      ],
+      [
+        "1912",
+        0.18697374938088163
+      ],
+      [
+        "3437",
+        0.13546310054482416
+      ],
+      [
+        "0",
+        0.08593363051015354
+      ],
+      [
+        "2543",
+        0.07280832095096582
+      ],
+      [
+        "2347",
+        0.07206537890044576
+      ],
+      [
+        "1888",
+        0.0629024269440317
+      ],
+      [
+        "1800",
+        0.06067360079247152
+      ],
+      [
+        "1663",
+        0.058197127290737984
+      ]
+    ],
+    "betweenness": [
+      [
+        "107",
+        0.4805180785560152
+      ],
+      [
+        "1684",
+        0.3377974497301992
+      ],
+      [
+        "3437",
+        0.23611535735892905
+      ],
+      [
+        "1912",
+        0.2292953395868782
+      ],
+      [
+        "1085",
+        0.14901509211665306
+      ],
+      [
+        "0",
+        0.14630592147442917
+      ],
+      [
+        "698",
+        0.11533045020560802
+      ],
+      [
+        "567",
+        0.09631033121856215
+      ],
+      [
+        "58",
+        0.08436020590796486
+      ],
+      [
+        "428",
+        0.06430906239323866
+      ]
+    ],
+    "closeness": [
+      [
+        "107",
+        0.45969945355191255
+      ],
+      [
+        "58",
+        0.3974018305284913
+      ],
+      [
+        "428",
+        0.3948371956585509
+      ],
+      [
+        "563",
+        0.3939127889961955
+      ],
+      [
+        "1684",
+        0.39360561458231796
+      ],
+      [
+        "171",
+        0.37049270575282134
+      ],
+      [
+        "348",
+        0.36991572004397216
+      ],
+      [
+        "483",
+        0.3698479575013739
+      ],
+      [
+        "414",
+        0.3695433330282786
+      ],
+      [
+        "376",
+        0.36655773420479304
+      ]
+    ],
+    "eigenvector": [
+      [
+        "1912",
+        0.09540696149067629
+      ],
+      [
+        "2266",
+        0.08698327767886552
+      ],
+      [
+        "2206",
+        0.08605239270584342
+      ],
+      [
+        "2233",
+        0.08517340912756598
+      ],
+      [
+        "2464",
+        0.08427877475676092
+      ],
+      [
+        "2142",
+        0.08419311897991795
+      ],
+      [
+        "2218",
+        0.0841557356805503
+      ],
+      [
+        "2078",
+        0.08413617041724977
+      ],
+      [
+        "2123",
+        0.08367141238206224
+      ],
+      [
+        "1993",
+        0.0835324284081597
+      ]
+    ]
+  },
+  "robustness": null,
+  "ai_insights": "## Comprehensive Analysis of Your Social Network\n\nThis report provides a comprehensive analysis of your social network based on the provided data. We'll break down the key metrics, interpret their meaning, highlight notable patterns, and offer actionable insights.\n\n**1. Direct Answer to the User's Question:**\n\nThis social network appears to be a moderately dense and highly interconnected community. There's a clear hierarchy of influence, with a few individuals exhibiting significantly higher centrality scores. The network is well-integrated, with a single connected component.\n\n**2. Explanation of Relevant Findings in Accessible Terms:**\n\nLet's unpack the key metrics:\n\n* **Basic Metrics:**\n    * **Nodes (4039):** This represents the total number of individuals in your network.\n    * **Edges (88234):** This is the number of connections or relationships between individuals. A high number of edges indicates a well-connected network.\n    * **Density (0.0108):** This indicates the proportion of possible connections that actually exist. A density of 0.0108 suggests that roughly 1.08% of all possible connections are present. This is relatively low, implying the network isn't extremely tightly knit, but still has a significant number of connections.\n\n* **Connectivity:**\n    * **Clustering Coefficient (0.5192):** This measures the tendency of your connections to form clusters or tightly knit groups. A score of 0.5192 suggests that individuals in your network are likely to have friends who are also friends with each other, indicating strong community formation.\n    * **Connected Components (1):** This confirms that your entire network is a single, cohesive unit \u2013 there are no isolated groups of individuals.\n    * **Largest Component Size (4039):** Since there's only one connected component, the size of this component is the total number of individuals in the network.\n\n* **Centrality Leaders (Degree, Betweenness, Closeness, Eigenvector):** These metrics identify the most influential individuals in your network.\n    * **Degree Centrality:** This measures the number of direct connections an individual has. The top individuals (107, 1684, 1912, 3437, 0) have a significantly higher number of connections than others, making them central hubs in the network.\n    * **Betweenness Centrality:** This measures how often an individual lies on the shortest path between other pairs of nodes. The top individuals (107, 1684, 3437, 1912, 1085) act as bridges connecting different parts of the network. They have significant control over information flow.\n    * **Closeness Centrality:** This measures the average distance from an individual to all other nodes in the network. The top individuals (107, 58, 428, 563, 1684) are \"close\" to everyone else in the network, meaning information can spread quickly through them.\n    * **Eigenvector Centrality:** This measures the influence of an individual based on the influence of their connections. The top individuals (1912, 2266, 2206, 2233, 2464) are connected to other influential individuals, making them highly impactful within the network.\n\n**3. Context and Interpretation of the Results:**\n\nYour social network is characterized by a few individuals who act as key connectors and influencers. The high clustering coefficient suggests that these individuals are likely embedded within strong, interconnected communities. The single connected component indicates a cohesive group where information and influence can potentially spread efficiently.\n\nThe varying scores across the centrality measures provide a nuanced understanding of influence. For example, someone with high degree centrality has many connections, while someone with high betweenness centrality is crucial for connecting different parts of the network.\n\n**Notable Patterns and Anomalies:**\n\n* **Concentration of Influence:** A relatively small number of individuals (those with higher centrality scores) appear to have a disproportionately large influence within the network.\n* **Strong Community Formation:** The high clustering coefficient suggests that the network isn't just a collection of loosely connected individuals; there are likely strong, tightly knit subgroups.\n* **Potential Bottlenecks:** Individuals with high betweenness centrality could be potential bottlenecks for information flow if they were to become unavailable or disconnected.\n\n**4. Actionable Insights and Recommendations:**\n\nBased on this analysis, here are some actionable insights and recommendations:\n\n* **Identify and Leverage Key Influencers:** The individuals with high centrality scores (especially those with high eigenvector centrality) are likely key influencers in your network. Consider engaging with them strategically for disseminating information, gaining support, or fostering collaboration.\n* **Strengthen Connections within Clusters:** The high clustering coefficient suggests that strengthening connections within existing clusters could further enhance collaboration and information sharing within those groups.\n* **Monitor Betweenness Centrality:** Pay attention to individuals with high betweenness centrality. Their connections are vital for network cohesion. Ensure their relationships remain strong.\n* **Consider Network Expansion (Strategically):** While the network is already connected, strategically expanding connections to individuals with lower centrality scores could introduce new perspectives and resources. However, prioritize connections that align with your goals.\n* **Understand Information Flow:** Analyze how information typically flows through the network, particularly through the individuals with high betweenness and closeness centrality. This can help in targeted communication strategies.\n* **Identify Potential Disruption Points:** Individuals with high betweenness centrality could also represent potential points of disruption if they were to lose connections. Building redundancy in connections could mitigate this risk.\n\n**5. Practical and Valuable for Decision-Making:**\n\nThis analysis provides valuable insights for various decision-making scenarios:\n\n* **Marketing and Outreach:** Identify influencers to target for marketing campaigns.\n* **Team Building and Collaboration:** Recognize key connectors to facilitate teamwork and information sharing.\n* **Leadership and Management:** Understand who holds the most influence and leverage their expertise.\n* **Organizational Structure:** Gain insights into the natural structure of the network and identify potential leadership roles.\n* **Crisis Communication:** Identify key individuals to disseminate information during a crisis.\n\n**In conclusion, your social network is a well-integrated community with a few highly influential individuals. By understanding the patterns and leveraging the insights from this analysis, you can make more informed decisions to achieve your goals.**",
+  "analysis_timestamp": "2025-07-01T12:41:57.204369"
+}

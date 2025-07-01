@@ -1,0 +1,267 @@
+{
+  "graph_info": {
+    "source": "datasets/email-Eu-core.txt",
+    "format": "CSV EdgeList",
+    "directed": false,
+    "loaded_at": "2025-07-01T12:47:21.564222",
+    "original_edges": 25571,
+    "final_nodes": 1005,
+    "final_edges": 16706,
+    "preprocessing": {
+      "remove_self_loops": true,
+      "remove_isolates": false,
+      "largest_component_only": false,
+      "original_nodes": 1005,
+      "original_edges": 16706,
+      "final_nodes": 1005,
+      "final_edges": 16064
+    }
+  },
+  "metrics": {
+    "basic_stats": {
+      "nodes": 1005,
+      "edges": 16064,
+      "density": 0.0318
+    },
+    "connectivity": {
+      "clustering_coefficient": 0.2674,
+      "connected_components": 20,
+      "largest_component_size": 986
+    },
+    "centrality_leaders": {
+      "degree": {
+        "160": 0.3436254980079681,
+        "121": 0.23107569721115537,
+        "82": 0.2300796812749004,
+        "107": 0.21812749003984064,
+        "86": 0.2151394422310757
+      },
+      "betweenness": {
+        "160": 0.08741473493638795,
+        "86": 0.03778853269115196,
+        "5": 0.030994686545277747,
+        "82": 0.027880741135114222,
+        "121": 0.027841538825800698
+      },
+      "closeness": {
+        "160": 0.5738477207559312,
+        "82": 0.5341954459662731,
+        "121": 0.5312586925524948,
+        "107": 0.5237721201913215,
+        "62": 0.5226390274488848
+      },
+      "eigenvector": {
+        "160": 0.1656830948507221,
+        "121": 0.14828807637206007,
+        "82": 0.14512866083405873,
+        "107": 0.13972905686315384,
+        "62": 0.13135620631725609
+      }
+    }
+  },
+  "communities": {
+    "count": 26,
+    "sizes": [
+      299,
+      147,
+      94,
+      132,
+      131,
+      56,
+      127,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "modularity": 0.41565050880268767
+  },
+  "influential_nodes": {
+    "degree": [
+      [
+        "160",
+        0.3436254980079681
+      ],
+      [
+        "121",
+        0.23107569721115537
+      ],
+      [
+        "82",
+        0.2300796812749004
+      ],
+      [
+        "107",
+        0.21812749003984064
+      ],
+      [
+        "86",
+        0.2151394422310757
+      ],
+      [
+        "62",
+        0.21314741035856574
+      ],
+      [
+        "434",
+        0.18227091633466136
+      ],
+      [
+        "13",
+        0.17729083665338646
+      ],
+      [
+        "166",
+        0.1743027888446215
+      ],
+      [
+        "183",
+        0.17031872509960158
+      ]
+    ],
+    "betweenness": [
+      [
+        "160",
+        0.08741473493638795
+      ],
+      [
+        "86",
+        0.03778853269115196
+      ],
+      [
+        "5",
+        0.030994686545277747
+      ],
+      [
+        "82",
+        0.027880741135114222
+      ],
+      [
+        "121",
+        0.027841538825800698
+      ],
+      [
+        "107",
+        0.024340312182693967
+      ],
+      [
+        "13",
+        0.023564989570690153
+      ],
+      [
+        "377",
+        0.023174608236649356
+      ],
+      [
+        "62",
+        0.022509845192539162
+      ],
+      [
+        "64",
+        0.021923722805463768
+      ]
+    ],
+    "closeness": [
+      [
+        "160",
+        0.5738477207559312
+      ],
+      [
+        "82",
+        0.5341954459662731
+      ],
+      [
+        "121",
+        0.5312586925524948
+      ],
+      [
+        "107",
+        0.5237721201913215
+      ],
+      [
+        "62",
+        0.5226390274488848
+      ],
+      [
+        "86",
+        0.5220743175326786
+      ],
+      [
+        "434",
+        0.5159421045130743
+      ],
+      [
+        "166",
+        0.5102215215168892
+      ],
+      [
+        "249",
+        0.5091462390690137
+      ],
+      [
+        "64",
+        0.5067433464881951
+      ]
+    ],
+    "eigenvector": [
+      [
+        "160",
+        0.1656830948507221
+      ],
+      [
+        "121",
+        0.14828807637206007
+      ],
+      [
+        "82",
+        0.14512866083405873
+      ],
+      [
+        "107",
+        0.13972905686315384
+      ],
+      [
+        "62",
+        0.13135620631725609
+      ],
+      [
+        "434",
+        0.12520298189616583
+      ],
+      [
+        "249",
+        0.12429736784993142
+      ],
+      [
+        "183",
+        0.1138306542772958
+      ],
+      [
+        "86",
+        0.11210381551592374
+      ],
+      [
+        "166",
+        0.11025738079980718
+      ]
+    ]
+  },
+  "robustness": null,
+  "ai_insights": "## Analysis of the European Research Institution Email Communication Network\n\nHere's a comprehensive analysis of the email communication network from the European research institution, based on the provided results. This analysis aims to answer your question by interpreting the network's structure, identifying key individuals, and suggesting actionable insights.\n\n**1. Direct Answer to the User's Question:**\n\nThe email communication network of this European research institution exhibits a moderately dense structure with a few central figures driving a significant portion of the communication. The network is fragmented into multiple connected components, suggesting potential silos or distinct research groups within the institution.\n\n**2. Explanation of Relevant Findings in Accessible Terms:**\n\nLet's break down the key metrics:\n\n* **Basic Metrics:**\n    * **Nodes (1005):** This represents the number of individual people in the network who have sent or received emails.\n    * **Edges (16064):** This is the total number of email exchanges between people. A higher number indicates more communication.\n    * **Density (0.0318):** This indicates the proportion of possible email exchanges that actually occur. A density of 0.0318 means that roughly 3.18% of all possible email connections within the network are actually present. This is relatively low, suggesting that not everyone communicates with everyone else.\n\n* **Connectivity:**\n    * **Clustering Coefficient (0.2674):** This measures how likely it is that the colleagues of a person are also connected to each other. A value of 0.2674 suggests a moderate level of interconnectedness within communication clusters. People tend to communicate with others who also communicate with each other.\n    * **Connected Components (20):** The network isn't one big connected group. It's divided into 20 separate groups of people who communicate with each other, but have limited or no direct communication with those in other groups.\n    * **Largest Component Size (986):** The largest group of people who frequently communicate with each other consists of 986 individuals.\n\n* **Centrality Leaders (Focusing on Degree, Betweenness, Closeness, and Eigenvector):** These metrics identify the most important individuals in the network.\n    * **Degree Centrality:** This measures the number of direct connections a person has (i.e., the number of emails they send and receive). The top individuals (160, 121, 82, 107, 86) have a significantly higher number of direct email contacts, making them central hubs in the communication flow.\n    * **Betweenness Centrality:** This measures how often a person lies on the shortest path between two other people in the network. Individuals with high betweenness act as bridges between different parts of the network. The top individuals (160, 86) are key connectors, facilitating communication between otherwise disconnected groups.\n    * **Closeness Centrality:** This measures the average distance (number of steps) from a person to all other people in the network. Individuals with high closeness can quickly reach and be reached by others. The top individuals (160) are efficient communicators within the network.\n    * **Eigenvector Centrality:** This measures the influence of a person in the network, considering the importance of their connections. Being connected to important people makes someone more important. The top individual (160) has high eigenvector centrality, indicating they are connected to other highly connected individuals.\n\n**3. Context and Interpretation of the Results:**\n\nThe results suggest a research institution with a somewhat hierarchical or clustered communication pattern. The presence of 20 connected components indicates that the institution might have distinct research teams or departments that primarily communicate internally. \n\nThe high degree centrality of individuals like node 160 suggests they are likely well-connected and frequently involved in communication across different parts of the institution. Their high betweenness centrality further reinforces this, indicating they play a crucial role in connecting different research groups. \n\nThe moderate clustering coefficient suggests that within these communication clusters, there's a tendency for individuals to interact with others within their immediate circle. However, the overall density of the network being relatively low implies that communication isn't universally pervasive across the entire institution.\n\n**4. Actionable Insights or Recommendations:**\n\nBased on this analysis, here are some actionable insights and recommendations:\n\n* **Identify Key Communicators:** Individuals with high degree, betweenness, closeness, and eigenvector centrality (like node 160) are valuable for disseminating information and fostering collaboration across different research groups. Consider involving them in cross-team initiatives or knowledge-sharing platforms.\n* **Facilitate Cross-Component Communication:** The existence of multiple connected components suggests potential silos. Initiatives to encourage communication between these components could be beneficial. This could involve organizing inter-team meetings, creating shared online spaces, or promoting collaborative projects.\n* **Leverage Central Hubs:**  Focus on empowering and supporting the central figures (like node 160) to act as catalysts for communication and collaboration. \n* **Understand Research Group Structures:** Further investigation into the 20 connected components could reveal the organizational structure of the institution and the relationships between different research teams.\n* **Potential for Knowledge Dissemination:** The network structure highlights potential pathways for knowledge dissemination. Identifying the central nodes can help in strategically distributing important research findings.\n\n**5. Notable Patterns or Anomalies:**\n\n* **Strong Central Hub:** The presence of a highly central individual (node 160) is a notable pattern. This person appears to be a key connector within the institution's communication network. \n* **Fragmented Network:** The division into 20 connected components is a significant pattern, suggesting a degree of compartmentalization in communication.\n* **Moderate Overall Connectivity:** The relatively low density of the network suggests that not all individuals have extensive communication with each other, indicating potential areas for improvement in fostering broader collaboration.\n\n\n\n**In conclusion,** this analysis provides valuable insights into the communication dynamics of the European research institution. By understanding the network's structure and identifying key individuals, the institution can make informed decisions to enhance collaboration, knowledge sharing, and overall research effectiveness. Further investigation into the specific research areas and the nature of communication within each component could provide even deeper insights.",
+  "analysis_timestamp": "2025-07-01T12:47:58.423231"
+}
