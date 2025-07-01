@@ -1,0 +1,186 @@
+{
+  "graph_info": {
+    "source": "sample_data/social_network.csv",
+    "format": "CSV EdgeList",
+    "directed": false,
+    "loaded_at": "2025-07-01T12:09:12.461974",
+    "original_edges": 9,
+    "final_nodes": 6,
+    "final_edges": 9,
+    "preprocessing": {
+      "remove_self_loops": false,
+      "remove_isolates": false,
+      "largest_component_only": false,
+      "original_nodes": 6,
+      "original_edges": 9,
+      "final_nodes": 6,
+      "final_edges": 9
+    }
+  },
+  "metrics": {
+    "basic_stats": {
+      "nodes": 6,
+      "edges": 9,
+      "density": 0.6
+    },
+    "connectivity": {
+      "clustering_coefficient": 0.3333,
+      "connected_components": 1,
+      "largest_component_size": 6
+    },
+    "centrality_leaders": {
+      "degree": {
+        "user1": 0.6000000000000001,
+        "user2": 0.6000000000000001,
+        "user3": 0.6000000000000001,
+        "user4": 0.6000000000000001,
+        "user5": 0.6000000000000001
+      },
+      "betweenness": {
+        "user1": 0.1,
+        "user2": 0.1,
+        "user3": 0.1,
+        "user4": 0.1,
+        "user5": 0.1
+      },
+      "closeness": {
+        "user1": 0.7142857142857143,
+        "user2": 0.7142857142857143,
+        "user3": 0.7142857142857143,
+        "user4": 0.7142857142857143,
+        "user5": 0.7142857142857143
+      },
+      "eigenvector": {
+        "user1": 0.408248290463863,
+        "user2": 0.408248290463863,
+        "user3": 0.408248290463863,
+        "user4": 0.408248290463863,
+        "user5": 0.408248290463863
+      }
+    }
+  },
+  "communities": {
+    "count": 3,
+    "sizes": [
+      2,
+      2,
+      2
+    ],
+    "modularity": 0.0
+  },
+  "influential_nodes": {
+    "degree": [
+      [
+        "user1",
+        0.6000000000000001
+      ],
+      [
+        "user2",
+        0.6000000000000001
+      ],
+      [
+        "user3",
+        0.6000000000000001
+      ],
+      [
+        "user4",
+        0.6000000000000001
+      ],
+      [
+        "user5",
+        0.6000000000000001
+      ],
+      [
+        "user6",
+        0.6000000000000001
+      ]
+    ],
+    "betweenness": [
+      [
+        "user1",
+        0.1
+      ],
+      [
+        "user2",
+        0.1
+      ],
+      [
+        "user3",
+        0.1
+      ],
+      [
+        "user4",
+        0.1
+      ],
+      [
+        "user5",
+        0.1
+      ],
+      [
+        "user6",
+        0.1
+      ]
+    ],
+    "closeness": [
+      [
+        "user1",
+        0.7142857142857143
+      ],
+      [
+        "user2",
+        0.7142857142857143
+      ],
+      [
+        "user3",
+        0.7142857142857143
+      ],
+      [
+        "user4",
+        0.7142857142857143
+      ],
+      [
+        "user5",
+        0.7142857142857143
+      ],
+      [
+        "user6",
+        0.7142857142857143
+      ]
+    ],
+    "eigenvector": [
+      [
+        "user1",
+        0.408248290463863
+      ],
+      [
+        "user2",
+        0.408248290463863
+      ],
+      [
+        "user3",
+        0.408248290463863
+      ],
+      [
+        "user4",
+        0.408248290463863
+      ],
+      [
+        "user5",
+        0.408248290463863
+      ],
+      [
+        "user6",
+        0.408248290463863
+      ]
+    ]
+  },
+  "robustness": {
+    "original_connectivity": {
+      "components": 1,
+      "largest_component": 6
+    },
+    "removal_results": []
+  },
+  "ai_insights": "Okay, let's dive into a comprehensive analysis of your social network! Here's a breakdown of the results, explained in plain language, along with insights and recommendations.\n\n**1. Direct Answer: A Comprehensive Analysis of Your Social Network**\n\nBased on the provided data, your social network consists of 6 individuals (nodes) connected by 9 relationships (edges).  It's a relatively small network with a moderate level of interconnectedness.  The network is fully connected, meaning all 6 individuals are part of a single, cohesive group.  The analysis reveals a few key characteristics:\n\n*   **Moderate Density:** The network has a density of 60%, indicating a reasonable number of connections between individuals.\n*   **Centrality:**  Several individuals appear to be central to the network, based on different centrality measures.\n*   **Cohesion:** The network is relatively cohesive, with a good degree of clustering.\n\n\n\n**2. Explanation of Key Findings**\n\nLet's break down the analysis results section by section:\n\n*   **Basic Metrics:**\n    *   **Nodes (6):**  This is the number of people in your network.\n    *   **Edges (9):** This is the number of connections or relationships between those people.\n    *   **Density (0.6):**  This means that, on average, each person in the network is connected to 60% of the other people in the network. A density of 1 would mean everyone is connected to everyone else.\n\n*   **Connectivity:**\n    *   **Clustering Coefficient (0.3333):** This measures how interconnected the *neighbors* of each person are. A higher clustering coefficient means people's friends are also friends with each other.  A value of 0.33 suggests a moderate level of clustering \u2013 people tend to have friends who know each other, but it's not extremely high.\n    *   **Connected Components (1):**  This is important! It means your entire network is a single, connected group. There are no isolated subgroups.\n    *   **Largest Component Size (6):** Since there's only one connected component, the size of that component is the size of the whole network (6 people).\n\n*   **Centrality Leaders:**  This section identifies individuals who are important within the network, based on different measures:\n    *   **Degree Centrality:**  This measures the number of direct connections a person has.  A degree of 0.6 means that, on average, each person in the network has 6 connections.  In your case, everyone has the same degree, indicating a fairly even distribution of connections.\n    *   **Betweenness Centrality:** This measures how often a person lies on the shortest path between two other people in the network.  A betweenness of 0.1 for everyone suggests that no single person is a critical bridge connecting different parts of the network.\n    *   **Closeness Centrality:** This measures the average distance from a person to all other people in the network. A closeness of 0.71 for everyone indicates that, on average, each person is relatively close to all other people in the network.\n    *   **Eigenvector Centrality:** This measures the influence of a person in the network. It considers the importance of the people they are connected to. A value of 0.408 for everyone suggests that everyone has a moderate level of influence within the network.\n\n**3. Context and Interpretation**\n\nYour network appears to be relatively egalitarian.  There isn't a clear \"hub\" or highly influential individual dominating the connections.  Everyone has a similar number of connections and a similar level of influence. The high density and single connected component suggest a strong sense of cohesion and communication within the group. The moderate clustering coefficient indicates that relationships are not just random; there's a tendency for friends to know each other.\n\n**4. Actionable Insights and Recommendations**\n\nHere are some potential actions you can take based on this analysis:\n\n*   **Leverage the Collective:** Because the network is cohesive, it's likely that information and support can spread quickly.  Consider using the network for collaborative problem-solving or knowledge sharing.\n*   **Maintain Relationships:**  The moderate density suggests that maintaining existing relationships is valuable.  Regular communication and engagement can strengthen the network.\n*   **Identify Potential \"Connectors\":** While no one is a dominant connector, individuals with slightly higher centrality scores (even if only marginally) might be good points of contact for disseminating information or facilitating communication within the group.\n*   **Consider Expanding the Network:**  While the current network is strong, consider strategically expanding it to include individuals with complementary skills or perspectives. This could bring new ideas and opportunities.\n*   **Monitor Network Health:**  Periodically re-analyze the network to track changes in connections and influence. This can help you identify potential issues or opportunities.\n\n**5. Notable Patterns and Anomalies**\n\n*   **Symmetry:** The most notable pattern is the symmetry of the centrality measures.  Everyone has roughly the same degree, betweenness, closeness, and eigenvector centrality. This suggests a relatively flat power structure within the network.\n*   **No Outliers:** There are no significant outliers \u2013 no one is drastically more or less connected or influential than others. This contributes to the overall sense of balance and equality in the network.\n*   **Fully Connected:** The fact that the network is fully connected is a significant strength. It means that information can flow easily between all members of the group.\n\n\n\n**In summary:** Your social network is a strong, cohesive, and relatively egalitarian group.  It's a valuable asset for collaboration, communication, and support. By understanding the network's characteristics, you can leverage its strengths and address any potential weaknesses.\n\n\n\n**Disclaimer:** This analysis is based solely on the provided data. A more complete analysis would benefit from additional information about the nature of the relationships (e.g., friendship, professional collaboration, family ties) and the context in which the network exists.\n\n\n\n",
+  "analysis_timestamp": "2025-07-01T12:09:37.712246"
+}

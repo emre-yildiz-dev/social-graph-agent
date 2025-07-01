@@ -11,9 +11,12 @@ python-dotenv
 pydantic
 typing-extensions
 
+# Data processing and analysis
+pandas
+numpy
+
 # Graph analysis algorithms
 python-louvain
-numpy
 
 # Visualization
 matplotlib

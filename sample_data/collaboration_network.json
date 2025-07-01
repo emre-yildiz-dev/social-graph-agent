@@ -1,0 +1,57 @@
+{
+  "directed": false,
+  "nodes": [
+    {
+      "id": "researcher1",
+      "department": "CS",
+      "papers": 25
+    },
+    {
+      "id": "researcher2",
+      "department": "CS",
+      "papers": 18
+    },
+    {
+      "id": "researcher3",
+      "department": "Math",
+      "papers": 30
+    },
+    {
+      "id": "researcher4",
+      "department": "Physics",
+      "papers": 22
+    },
+    {
+      "id": "researcher5",
+      "department": "CS",
+      "papers": 15
+    }
+  ],
+  "edges": [
+    {
+      "source": "researcher1",
+      "target": "researcher2",
+      "collaborations": 5
+    },
+    {
+      "source": "researcher1",
+      "target": "researcher3",
+      "collaborations": 3
+    },
+    {
+      "source": "researcher2",
+      "target": "researcher4",
+      "collaborations": 2
+    },
+    {
+      "source": "researcher3",
+      "target": "researcher5",
+      "collaborations": 4
+    },
+    {
+      "source": "researcher1",
+      "target": "researcher5",
+      "collaborations": 6
+    }
+  ]
+}
