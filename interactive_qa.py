@@ -11,11 +11,13 @@ This script provides an interactive command-line interface where users can:
 
 import sys
 import json
+import os
 from typing import Optional, Any
 import networkx as nx
 from social_graph_agent import SocialGraphAgent
 from models import NodeData, EdgeData
 from graph_tools import SocialGraphAnalyzer
+from real_world_analysis import RealWorldGraphAnalyzer
 
 
 class InteractiveQA:
@@ -51,6 +53,9 @@ class InteractiveQA:
         print("   • status      - Show current network status")
         print("   • sample      - Load a new sample network")
         print("   • custom      - Load custom network (organizational demo)")
+        print("   • dataset     - Load real-world dataset from file")
+        print("   • facebook    - Load Facebook social circles dataset")
+        print("   • email       - Load European email network dataset") 
         print("   • metrics     - Show detailed network metrics")
         print("   • clear       - Clear screen")
         print("   • quit/exit   - Exit the program")
@@ -143,6 +148,111 @@ class InteractiveQA:
         except Exception as e:
             print(f"❌ Error loading custom network: {str(e)}")
     
+    def load_dataset_from_file(self):
+        """Load a dataset from a file path."""
+        try:
+            print("\n📁 Available datasets in 'datasets/' folder:")
+            if os.path.exists("datasets"):
+                files = [f for f in os.listdir("datasets") if f.endswith(('.txt', '.csv', '.json', '.graphml'))]
+                if files:
+                    for i, filename in enumerate(files, 1):
+                        print(f"   {i}. {filename}")
+                    
+                    choice = input("\n🔢 Enter file number or filename: ").strip()
+                    
+                    # Handle numeric choice
+                    if choice.isdigit() and 1 <= int(choice) <= len(files):
+                        filename = files[int(choice) - 1]
+                    else:
+                        filename = choice
+                    
+                    filepath = os.path.join("datasets", filename)
+                    if not os.path.exists(filepath):
+                        filepath = choice  # Try as direct path
+                    
+                    if os.path.exists(filepath):
+                        self._load_file(filepath, os.path.splitext(filename)[0])
+                    else:
+                        print(f"❌ File not found: {filepath}")
+                else:
+                    print("   No dataset files found")
+                    filepath = input("🔤 Enter full file path: ").strip()
+                    if os.path.exists(filepath):
+                        filename = os.path.basename(filepath)
+                        self._load_file(filepath, os.path.splitext(filename)[0])
+                    else:
+                        print(f"❌ File not found: {filepath}")
+            else:
+                filepath = input("🔤 Enter full file path: ").strip()
+                if os.path.exists(filepath):
+                    filename = os.path.basename(filepath)
+                    self._load_file(filepath, os.path.splitext(filename)[0])
+                else:
+                    print(f"❌ File not found: {filepath}")
+                    
+        except Exception as e:
+            print(f"❌ Error loading dataset: {str(e)}")
+    
+    def load_facebook_dataset(self):
+        """Load the Facebook social circles dataset."""
+        facebook_path = "datasets/facebook_combined.txt"
+        if os.path.exists(facebook_path):
+            self._load_file(facebook_path, "facebook")
+        else:
+            print(f"❌ Facebook dataset not found at: {facebook_path}")
+            print("   Make sure you've downloaded the dataset first.")
+    
+    def load_email_dataset(self):
+        """Load the European email network dataset."""
+        email_path = "datasets/email-Eu-core.txt"
+        if os.path.exists(email_path):
+            self._load_file(email_path, "email")
+        else:
+            print(f"❌ Email dataset not found at: {email_path}")
+            print("   Make sure you've downloaded the dataset first.")
+    
+    def _load_file(self, filepath: str, dataset_name: str):
+        """Internal method to load a file using RealWorldGraphAnalyzer."""
+        try:
+            print(f"🏗️  Loading {dataset_name} dataset from: {filepath}")
+            
+            analyzer = RealWorldGraphAnalyzer()
+            
+            # Determine delimiter based on file extension and content
+            delimiter = " "
+            if filepath.endswith('.csv'):
+                delimiter = ","
+            elif filepath.endswith('.txt'):
+                # Check if it's tab-separated by peeking at the file
+                with open(filepath, 'r') as f:
+                    first_line = f.readline().strip()
+                    if '\t' in first_line and ' ' not in first_line.replace('\t', ''):
+                        delimiter = "\t"
+            
+            graph = analyzer.auto_detect_and_load(filepath, delimiter=delimiter)
+            
+            # Basic preprocessing
+            self.current_graph = analyzer.validate_and_preprocess(
+                graph, 
+                remove_self_loops=True, 
+                remove_isolates=False, 
+                largest_component_only=False
+            )
+            
+            self.graph_type = f"{dataset_name}_dataset"
+            
+            print(f"✅ {dataset_name.title()} dataset loaded successfully!")
+            print(f"   📊 {self.current_graph.number_of_nodes()} nodes, {self.current_graph.number_of_edges()} edges")
+            
+            # Show basic info about the dataset
+            if hasattr(analyzer, 'graph_info') and analyzer.graph_info:
+                info = analyzer.graph_info
+                print(f"   📋 Format: {info.get('format', 'Unknown')}")
+                print(f"   🔄 Type: {'Directed' if info.get('directed') else 'Undirected'}")
+                
+        except Exception as e:
+            print(f"❌ Error loading {dataset_name} dataset: {str(e)}")
+    
     def show_status(self):
         """Show current system status."""
         print("\n📊 CURRENT STATUS:")
@@ -164,7 +274,7 @@ class InteractiveQA:
     def show_detailed_metrics(self):
         """Show detailed network metrics."""
         if not self.current_graph:
-            print("❌ No network loaded. Use 'sample' or 'custom' to load a network first.")
+            print("❌ No network loaded. Use 'sample', 'custom', 'facebook', 'email', or 'dataset' to load a network first.")
             return
         
         try:
@@ -180,7 +290,7 @@ class InteractiveQA:
    • Nodes: {metrics.num_nodes}
    • Edges: {metrics.num_edges}
    • Density: {metrics.density:.4f}
-   • Average Degree: {sum(dict(self.current_graph.degree()).values()) / metrics.num_nodes:.2f}
+   • Average Degree: {(2 * self.current_graph.number_of_edges()) / metrics.num_nodes:.2f}
 
 🔗 CONNECTIVITY:
    • Connected Components: {metrics.num_connected_components}
@@ -229,6 +339,15 @@ class InteractiveQA:
         elif question_lower == 'custom':
             self.load_custom_network()
             return True
+        elif question_lower == 'dataset':
+            self.load_dataset_from_file()
+            return True
+        elif question_lower == 'facebook':
+            self.load_facebook_dataset()
+            return True
+        elif question_lower == 'email':
+            self.load_email_dataset()
+            return True
         elif question_lower == 'metrics':
             self.show_detailed_metrics()
             return True
@@ -243,7 +362,7 @@ class InteractiveQA:
             return True
         
         if not self.current_graph:
-            print("❌ No network loaded. Use 'sample' or 'custom' to load a network first.")
+            print("❌ No network loaded. Use 'sample', 'custom', 'facebook', 'email', or 'dataset' to load a network first.")
             return True
         
         try:
